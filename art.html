@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Jahrel's Art</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="CSS/Jahrel-Website-CSS.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Sumana" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <script src="Script/script.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    
+    <body>
+        
+        
+        <div class="art">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+
+                    <li class="dropdown">
+                    <a href="#" class="dropbtn">Portfolio</a>
+                <div class="dropdown-content">
+                    <a href="writing.html">Writing</a>
+                    <a href="programming.html">Programming</a>
+                    <a href="art.html">Art</a>
+                </div>
+                    </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div id="mySidenav" class="sidenav">  
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="https://www.linkedin.com/in/jahrel-m-5ab3a9128?trk=nav_responsive_tab_profile_pic" target="_blank" title="Connect with me"><img alt="Share on LinkedIn" src="images/simple_icons_black/LinkedIn.png"></a>
+            <a href="mailto:jahrelm.99@gmail.com" target="_blank" title="Send email"><img alt="Send email" src="images/simple_icons_black/Email.png"></a>
+            <a href="https://www.fresnounified.org/schools/sunnyside" target="_blank" title="School">School</a>
+            <a href="http://cart.org/" target="_blank" title="CART">CART</a>
+        </div>
+
+        <div id="main">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
+        
+        <div class="flatimage" style="text-align:center;">
+            <div id="intro"><hr>
+                Here is my art page. Included here are samples from my time at CART. Please scroll down.<hr>
+            </div>
+        </div>
+            
+            <h1 style="text-align: center;">Art</h1>
+            
+            <p style="text-align: center; color: goldenrod; font-family: quicksand; font-size: 20px;"><i>There are three samples of art <br> made with Adobe Photoshop, illustrating <br> the progress I have made this year.</i></p>
+                
+            <div class="wrapper">
+                <div class="slideshow">
+                <a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)" style="display: flex; justify-content: center; cursor: pointer;"><i class="fa fa-chevron-circle-left" style="font-size:70px;"></i></a>
+                
+                <img class="mySlides" src="images/gallery-interior.jpg" alt="bright">
+                <img class="mySlides" src="images/gallery-planet.jpg" alt="curves">
+                <img class="mySlides" src="images/gallery-coffee.jpg" alt="black and white">
+            
+                <a class="w3-btn-floating w3-display-right" onclick="plusDivs(+1)" style="display: flex; justify-content: center; cursor: pointer;"><i class="fa fa-chevron-circle-right" style="font-size:70px;"></i></a>
+            </div>
+            </div>
+        </div>
+        
+        <footer>
+            <div id="add">Jahrel Moyenda <br> 2555 Clovis Ave. <br> Clovis, CA 93612</div>
+            <hr>
+            <div id="phone">Phone: (559)475-1601 <br> Email: <a href="mailto:jahrelm.99@gmail.com">jahrelm.99@gmail.com</a></div>
+            <hr>
+            <div class="footsocial">
+                <a href="https://www.linkedin.com/in/jahrel-m-5ab3a9128?trk=nav_responsive_tab_profile_pic" target="_blank" title="Connect with me"><img alt="Share on LinkedIn" src="images/simple_icons_black/LinkedIn.png"></a>
+                <a href="mailto:jahrelm.99@gmail.com" target="_blank" title="Send email"><img alt="Send email" src="images/simple_icons_black/Email.png"></a>
+                <a href="https://www.pinterest.com/" target="_blank" title="Connect with me"><img alt="Share on LinkedIn" src="images/simple_icons_black/Pinterest.png"></a>
+                <a href="https://plus.google.com/collections/featured" target="_blank" title="Send email"><img alt="Send email" src="images/simple_icons_black/Google+.png"></a>
+            </div>
+        </footer>
+        
+    
+    <script>showDivs(slideIndex);</script>
+    </body>
+</html>
